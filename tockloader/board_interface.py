@@ -300,7 +300,7 @@ class BoardInterface:
             "flash_file": {
                 # Set to the half of maximum flash size, to keep image sizes smaller
                 # (also ensures room for data at end of flash).
-                "max_size": 0x00070000,
+                "max_size": 0x000e0000,
             },
         },
     }
